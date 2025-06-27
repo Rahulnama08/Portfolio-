@@ -7,6 +7,8 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 import NotFound from "./NotFound";
 import Contact from "./Contact"
+import Achievement from "./Achievement";
+import lottie from "lottie-react"
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/experience" element={<Experience/>}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/achievement" element={<Achievement/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>

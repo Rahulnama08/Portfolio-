@@ -9,6 +9,7 @@ const Navbar = () => {
           <Link to="/about">  <li className='text-md transition-all duration-300 p-1 md:p-0'>About</li></Link>
            <Link to="/experience"> <li className='text-md transition-all duration-300 p-1 md:p-0'>Experience</li></Link>
            <Link to='/projects'> <li className='text-md transition-all duration-300 p-1 md:p-0'>Project</li></Link>
+           <Link to='/achievement'> <li className='text-md transition-all duration-300 p-1 md:p-0'>Achievements</li></Link>
            <Link to='/contact'> <li className='text-md transition-all duration-300 p-1 md:p-0'>Contact</li></Link>
          </ul>
     </nav>

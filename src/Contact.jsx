@@ -98,7 +98,7 @@ export default function Example() {
                     className="col-start-1 row-start-1 w-full appearance-none rounded-md py-2 pr-7 pl-3.5 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                   >
                     <option>US</option>
-                    <option>CA</option>
+                    <option>IND</option>
                     <option>EU</option>
                   </select>
                   <ChevronDownIcon
@@ -147,7 +147,7 @@ export default function Example() {
             <Label className="text-sm/6 text-white">
               By selecting this, you agree to our{' '}
               <a href="#" className="font-semibold text-indigo-600">
-                privacy&nbsp;policy
+                privacy policy
               </a>
               .
             </Label>
