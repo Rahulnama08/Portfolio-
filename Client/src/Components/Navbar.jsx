@@ -12,15 +12,16 @@ const Navbar = () => {
         <Link to="/">Portfolio</Link>
       </span>
 
-      {/* Hamburger Icon (visible only on small screens) */}
+      {/* Hamburger Icon (mobile only) */}
       <div className="md:hidden z-20" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
       </div>
 
       {/* Menu */}
-      <ul className={`absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent bg-opacity-90 text-center md:flex gap-6 font-semibold rounded-b-xl md:rounded-none transition-all duration-300 ease-in-out
-        ${menuOpen ? 'block' : 'hidden md:flex'}`}>
-
+      <ul
+        className={`absolute md:static top-16 left-0 w-full md:w-auto bg-transparent text-center md:flex gap-6 font-semibold rounded-b-xl md:rounded-none transition-all duration-300 ease-in-out
+        ${menuOpen ? 'block' : 'hidden md:flex'}`}
+      >
         <Link to="/about" onClick={() => setMenuOpen(false)}>
           <li className="p-2 md:p-0">About</li>
         </Link>

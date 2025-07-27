@@ -42,7 +42,7 @@ const Home = () => {
         </div>
 
         {/* Right Animation */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center mt-24 md:mt-0">
           <Lottie animationData={devloper} className="w-72 sm:w-80 md:w-[500px]" loop={true} />
         </div>
       </div>
