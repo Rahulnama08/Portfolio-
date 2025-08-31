@@ -18,7 +18,7 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('http://localhost:5000/send', formData)
+      await axios.post('https://portfolio-backend-2odu.onrender.com/send', formData)
       alert('Message sent successfully!')
     } catch (err) {
       alert('Failed to send message')
