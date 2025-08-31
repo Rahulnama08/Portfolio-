@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from '../Components/ProjectCard'
-import BannerImg from '../assets/spotify-logo.jpg'
-import SideBar from '../assets/side-bar menu.png'
+import BannerImg from '../assets/spotify-logo.png'
+import safarNama from '../assets/safarNama.png'
 import Image from '../assets/portfolio.png'
 
 const Projects = () => {
@@ -14,19 +14,20 @@ const Projects = () => {
         <ProjectCard
           title="Spotify UI Clone"
           image={BannerImg}
-          main="A clean and responsive clone of Spotify’s web interface using HTML and CSS. Focused on layout structuring, modern design, and smooth user interactions."
+          main="Spotify UI Clone is a static frontend project created with HTML and CSS, replicating the layout and design of Spotify’s user interface. It focuses on a clean structure, modern styling, and hover effects, giving a real-world music app feel while improving my skills in HTML semantics and CSS design."
         />
 
         <ProjectCard
-          title="Sidebar Navigation Menu"
-          image={SideBar}
-          main="Responsive sidebar navigation with smooth animations and icon integration, built using HTML, CSS, and Font Awesome. Optimized for all screen sizes."
+          title="सफ़रNama - Hotel & Resort Booking Platform"
+          image={safarNama}
+          main="SafarNama is a MERN stack project where admins can list & manage hotels/resorts and users can search and book stays city-wise.
+                Features include JWT authentication, Cloudinary image uploads, Cron-based automation, booking confirmation emails (Nodemailer), and date handling with Moment.js"
         />
 
         <ProjectCard
-          title="Personal Portfolio"
+          title="portfolio website"
           image={Image}
-          main="My portfolio website built with React.js and Tailwind CSS. Showcases my projects, skills, and experience with a modern, interactive, and responsive UI."
+          main="Portfolio Website is a responsive project built using React.js and TailwindCSS, designed to showcase my skills and projects in a modern layout. It also features a contact form powered by Nodemailer, allowing visitors to connect with me directly"
         />
       </div>
     </div>
